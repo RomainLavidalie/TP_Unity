@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 8fb56a6243df94749a60d2dde48aa2e0
+  - enabled: 1
+    path: Assets/Scenes/Character.unity
+    guid: 88db204704deb444285cfdbf98d55c60
+  - enabled: 1
+    path: Assets/Scenes/Island.unity
+    guid: 64339b360c41fc24d92891fc4415c9a7
+  - enabled: 1
+    path: Assets/Scenes/Sound.unity
+    guid: 6a698d892568f804b9357489d61859ce
+  - enabled: 1
+    path: Assets/Scenes/Controller.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/AnimPatrick.unity
+    guid: b18f23b9c7579984f99738020b55c223
   m_configObjects: {}
