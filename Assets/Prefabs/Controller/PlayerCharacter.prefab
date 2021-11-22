@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c6b4a79230386144b95cef6c76de07d4, type: 2}
+  - {fileID: 2100000, guid: 49decb4bf7f3a6641832cb8cb1cd4852, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -155,7 +155,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 66d4839c875a1444f981606b6534c951, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -304,7 +304,7 @@ MonoBehaviour:
   PrefabProjectile: {fileID: 6905257611694994816, guid: f1062f349f40195408f2f0bdad43aeb2, type: 3}
   ProjectileStartSpeed: 50
   OffsetForwardShoot: 2
-  TimeBetweenShots: 0.5
+  TimeBetweenShots: 0
 --- !u!54 &5295320813895767875
 Rigidbody:
   m_ObjectHideFlags: 0

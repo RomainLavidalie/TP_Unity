@@ -25,6 +25,11 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(5);
     }
+    
+    public void PlayIG()
+    {
+        SceneManager.LoadScene(6);
+    }
 
     public void ReturnToMenu()
     {
