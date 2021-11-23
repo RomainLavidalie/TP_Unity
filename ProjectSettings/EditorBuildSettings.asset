@@ -26,4 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AI.unity
     guid: 6b1fcd3385c89f141b773bfeee37f462
+  - enabled: 1
+    path: Assets/Scenes/AIWin.unity
+    guid: ab70e3ce2bda3074b853a6aa3c5a6cc7
+  - enabled: 1
+    path: Assets/Scenes/AILoss.unity
+    guid: acf25c725f37d4045b9e142da7671a4f
+  - enabled: 1
+    path: Assets/Scenes/Boids.unity
+    guid: 44cf81c8b3938d848bed4d11026e548e
   m_configObjects: {}

@@ -7,6 +7,6 @@ public class TSTSAttaque : FSMState<TSTStateInfo>
     public override void doState(ref TSTStateInfo infos)
     {
         infos.Controller.Stop();
-        infos.Controller.Attack();
+        infos.Controller.Attack(infos.LastPlayerPosition, infos.LastPlayerVelocity);
     }
 }

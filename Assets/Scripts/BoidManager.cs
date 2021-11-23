@@ -100,19 +100,24 @@ public class BoidManager : MonoBehaviour
                 landingPhase = true;
             landingTimer = landingTimerLock;
         }
+    }
 
-        if (cameraOnBoid && Camera.main.transform.parent != boids[0].transform)
+    public void SwitchCamera()
+    {
+        if (!cameraOnBoid && Camera.main.transform.parent != boids[0].transform)
         {
             Camera.main.transform.SetParent(boids[0].transform);
             Camera.main.transform.position = boids[0].transform.position;
             Camera.main.transform.rotation = boids[0].transform.rotation;
+            cameraOnBoid = true;
         }
 
-        else if (!cameraOnBoid && Camera.main.transform.parent == boids[0].transform)
+        else if (cameraOnBoid && Camera.main.transform.parent == boids[0].transform)
         {
             Camera.main.transform.parent = null;
             Camera.main.transform.position = initTransformPos;
             Camera.main.transform.rotation = initTransformRot;
+            cameraOnBoid = false;
         }
     }
 }

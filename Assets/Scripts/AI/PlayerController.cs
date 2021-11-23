@@ -20,10 +20,17 @@ public class PlayerController : ClicAgentController
     {
         base.Update();
         if (Input.GetButton("Jump"))
+        {
             speed = 5f;
+            GetComponent<NoiseStatus>().NoiseLevel = 1;
+        }
+
         else
+        {
             speed = 2.5f;
-        
+            GetComponent<NoiseStatus>().NoiseLevel = 0;
+        }
+
         movement.speed = speed;
     }
 }

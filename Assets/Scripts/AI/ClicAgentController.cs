@@ -9,7 +9,7 @@ public class ClicAgentController : AgentController
 
     protected void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1"))
         {
             rayPickPos = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit rh;

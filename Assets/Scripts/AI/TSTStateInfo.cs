@@ -1,13 +1,15 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-[System.Serializable] 
+
+//Les infos passées au state pour le jeu FrozenBattle
 public class TSTStateInfo : FSMStateInfo
 {
-    public bool CanSeeTarget;
-    public bool CanHearTarget;
+    public IG1EnemyController Controller;
     public Vector3 LastPlayerPosition;
     public Vector3 LastPlayerVelocity;
     public float LastPlayerPerceivedTime;
-    public bool CloseToTarget;
+    public bool CanSeeTarget;
+    public bool CanHearTarget;
     public float PcentLife;
-    public IG1EnemyController Controller;
 }

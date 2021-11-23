@@ -4,16 +4,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Hammer : MonoBehaviour
+public class Glock : MonoBehaviour
 {
-    
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene(7);
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +16,10 @@ public class Hammer : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        SceneManager.LoadScene(8);
     }
 }

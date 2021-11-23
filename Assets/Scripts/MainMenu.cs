@@ -30,6 +30,11 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(6);
     }
+    
+    public void PlayBoids()
+    {
+        SceneManager.LoadScene(9);
+    }
 
     public void ReturnToMenu()
     {
